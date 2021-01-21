@@ -1,0 +1,22 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        ".clasp.json"
+      ],
+      "url": "http://json.schemastore.org/clasp"
+    },
+    {
+      "fileMatch": [
+        "appsscript.json"
+      ],
+      "url": "http://json.schemastore.org/appsscript"
+    }
+  ],
+  "todo-tree.general.tags": [
+    "@Bug",
+    "@Fix",
+    "@Todo",
+    "@Watch",
+  ],
+}

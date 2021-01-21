@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": [
+      "google-apps-script",
+      "jest",
+      "node"
+    ],
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/**/*.test.ts",
+    "./tests/**/*.ts"
+  ],
+}

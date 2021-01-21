@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ES2019"
+    ],
+    "importHelpers": true,
+    "moduleResolution": "Node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "outDir": "./dist/",
+    "paths": {
+      "@drive/*": [
+        "./src/drive/*"
+      ],
+      "@helpers/*": [
+        "./src/helpers/*"
+      ],
+      "@script/*": [
+        "./src/script/*"
+      ],
+      "@spreadsheet/*": [
+        "./src/spreadsheet/*"
+      ],
+      "@tests/*": [
+        "./tests/*"
+      ]
+    },
+    "strict": true,
+    "target": "ES2019",
+    "types": [
+      "google-apps-script"
+    ]
+  }
+}

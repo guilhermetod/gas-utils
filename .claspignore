@@ -1,0 +1,4 @@
+**/index.ts
+**/*.test.ts
+**/types/**
+**/*.d.ts
